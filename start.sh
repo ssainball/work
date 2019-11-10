@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 count=`ps -ef | grep jormungandr | wc -l`
 echo $count
 
